@@ -8,6 +8,7 @@ SecureRAG addresses this challenge by combining encrypted retrieval, knowledge g
 The framework enables accurate requirements extraction while reducing exposure of confidential project information during retrieval and generation.
 
 **Problem**
+
 Traditional RAG systems improve LLM performance by retrieving relevant context before generation.
 However, in requirements engineering environments:
 Requirements documents may contain proprietary business knowledge.
@@ -18,6 +19,7 @@ As a result, organizations face a trade-off between AI-assisted analysis and dat
 SecureRAG is designed to reduce this trade-off.
 
 **Key Contributions**
+
 Privacy-Preserving Retrieval
 Sensitive requirements are protected using CKKS homomorphic encryption, allowing computations on encrypted representations without revealing plaintext information.
 
